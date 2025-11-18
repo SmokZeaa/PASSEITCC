@@ -1,3 +1,11 @@
+
+/* Página de HOME (Escolher Professor) */
+/* Página de HOME (Escolher Professor) */
+/* Página de HOME (Escolher Professor) */
+/* Página de HOME (Escolher Professor) */
+/* Página de HOME (Escolher Professor) */
+/* Página de HOME (Escolher Professor) */
+
 *{
     margin:0;
     padding:0;
@@ -212,6 +220,24 @@ a{
 
 }
 
+
+/* Página de Agendamento (Escolher Professor) */
+/* Página de Agendamento (Escolher Professor) */
+/* Página de Agendamento (Escolher Professor) */
+/* Página de Agendamento (Escolher Professor) */
+/* Página de Agendamento (Escolher Professor) */
+/* Página de Agendamento (Escolher Professor) */
+/* Página de Agendamento (Escolher Professor) */
+
+
+
+
+/* Página de Agendamento (Escolher Professor) */
+/* Página de Agendamento (Escolher Professor) */
+/* Página de Agendamento (Escolher Professor) */
+/* Página de Agendamento (Escolher Professor) */
+/* Página de Agendamento (Escolher Professor) */
+
 .AgendamentoProfessores{
 
     width: 1920px;
@@ -238,6 +264,136 @@ a{
 
 }
 
+.Container2{
+    display:flex;
+    justify-content: space-between;
+    width: 1554px;
+    height: 738px;
+    margin-top: 335px;
+    margin-left: 183px;
+
+}
+
+.BlocoCarla{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 638px;
+    height: 738px;
+    border: solid 1px black;
+    border-radius: 50px;
+    background-image: linear-gradient(white, #999999);
+}
+
+.FormacaoCarla {
+    width: 608px;
+    height: 232px;
+    font-size: 23px;
+}
+
+.BlocoMarcos{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 638px;
+    height: 738px;
+    border: solid 1px black;
+    border-radius: 50px;
+    background-image: linear-gradient(white, #999999);
+
+}
+
+.FormacaoMarcos {
+
+    width: 608px;
+    height: 232px;
+    font-size: 23px;
+
+}
+
+.Container3{
+
+    display:flex;
+    justify-content: space-between;
+    width: 1554px;
+    height: 738px;
+    margin-top: 326px;
+    margin-left: 183px;
+
+}
+
+.BlocoHelena{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 638px;
+    height: 738px;
+    border: solid 1px black;
+    border-radius: 50px;
+    background-image: linear-gradient(white, #999999);
+
+}
+
+.FormacaoHelena {
+
+    width: 608px;
+    height: 232px;
+    font-size: 23px;
+
+}
+
+.BlocoAna{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 638px;
+    height: 738px;
+    border: solid 1px black;
+    border-radius: 50px;
+    background-image: linear-gradient(white, #999999);
+
+}
+
+.FormacaoAna {
+
+    width: 608px;
+    height: 232px;
+    font-size: 23px;
+
+}
+
+/* Página de TCC (Escolher Professor) */
+/* Página de TCC (Escolher Professor) */
+/* Página de TCC (Escolher Professor) */
+/* Página de TCC (Escolher Professor) */
+/* Página de TCC (Escolher Professor) */
+/* Página de TCC (Escolher Professor) */
+
+
+
+
+/* Página de TCC (Escolher Professor) */
+/* Página de TCC (Escolher Professor) */
+/* Página de TCC (Escolher Professor) */
+/* Página de TCC (Escolher Professor) */
+/* Página de TCC (Escolher Professor) */
+/* Página de TCC (Escolher Professor) */
+
+
+
+
+
+
+
+
+
 .tccpagina{
 
     width: 1920px;
@@ -256,4 +412,3 @@ a{
     margin-right: 130px;
 
 }
-
