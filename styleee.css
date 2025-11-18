@@ -238,6 +238,13 @@ a{
 
 }
 
+.tccpagina{
+
+    width: 1920px;
+    height: 6000px;
+
+}
+
 .Textotcc {
 
     font-size: 24px;
@@ -249,3 +256,4 @@ a{
     margin-right: 130px;
 
 }
+
