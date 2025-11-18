@@ -10,6 +10,11 @@ a{
 
 }
 
+.home{
+    width: 1920px;
+    height: 3152px;
+}
+
 .header {
     display:flex;
     justify-content: space-between;
@@ -28,5 +33,181 @@ a{
 
 }
 
+.login {
+    display:flex;
+    width: 163px;
+    height: 18px;
+    justify-content: space-evenly;
+
+}
+
+.banner {
+
+    width:1920px;
+    height: 967px;
+    background-image: url(Imagens/LivroHome.jpg);
+    border-top: solid 2px aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 
+
+}
+
+.banner h1{
+    width: 694px;
+    height: 177px;
+    font-size: 47px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.botaoContate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 607px;
+    height: 124px;
+    margin-top: 50px;
+    margin-left: 25px;
+    border: solid, 1px, black;
+    border-radius: 400px;
+    font-size: 37px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, white, white , #2730D7);
+}
+
+
+
+.TextBox{
+
+    margin-top: 143px;
+    margin-left: 164px;
+    width: 1572px;
+    height: 118px;
+    
+}
+
+.TextBox h1{
+    
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+    font-size: 47px;
+
+}
+
+.DadBlock{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1407px;
+    height: 536px;
+    margin-top: 244px;
+    margin-left: 270px;
+}
+
+.blocoTcc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 536px;
+    height: 536px;
+    border: solid 1px black;
+    border-radius: 20px;
+    background-image: linear-gradient(white,#2730D7);
+}
+
+.blocoTcc h3 {
+
+    width: 536px;
+    height: 150px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top:15px ;
+
+}
+
+.blocoAgendamento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 536px;
+    height: 536px;
+    border: solid 1px black;
+    border-radius: 20px;
+    background-image: linear-gradient(white,#2730D7);
+}
+
+.blocoAgendamento h3{
+
+    width: 536px;
+    height: 150px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top:10px ;
+
+}
+
+
+.MomBlock{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1407px;
+    height: 536px;
+    margin-top: 244px;
+    margin-left: 270px;
+}
+
+.blocoSobre {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 536px;
+    height: 536px;
+    border: solid 1px black;
+    border-radius: 20px;
+    background-image: linear-gradient(white,#2730D7);
+
+}
+
+.blocoSobre h3 {
+
+    width: 536px;
+    height: 150px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top:10px ;
+
+}
+
+.blocoProfs {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 536px;
+    height: 536px;
+    border: solid 1px black;
+    border-radius: 20px;
+    background-image: linear-gradient(white,#2730D7);
+
+}
+
+.blocoProfs h3{
+
+    width: 530px;
+    height: 150px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top:10px ;
+
+
+}
