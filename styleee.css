@@ -30,6 +30,7 @@ a{
     padding: 0px 30px;
     width: 1920px;
     height: 104px;
+    border-bottom: solid 2px aqua;
     
 }
 .menu{
@@ -54,7 +55,6 @@ a{
     width:1920px;
     height: 967px;
     background-image: url(Imagens/LivroHome.jpg);
-    border-top: solid 2px aqua;
     display: flex;
     flex-direction: column;
     justify-content: center;
