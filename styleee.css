@@ -721,6 +721,13 @@ a{
     margin-bottom: 35px ;
 }
 
+.foto_Ana_Torres {
+    width: 529px;
+    height: 529px;
+    object-fit: cover; 
+    margin-bottom: 35px ;
+}
+
 .textodigitavel{
 
     background-color: #CFCFCF;
