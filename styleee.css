@@ -714,6 +714,13 @@ a{
     margin-bottom: 35px ;
 }
 
+.foto_Marcos_Andrade {
+    width: 529px;
+    height: 529px;
+    object-fit: cover; 
+    margin-bottom: 35px ;
+}
+
 .textodigitavel{
 
     background-color: #CFCFCF;
