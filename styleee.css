@@ -428,6 +428,12 @@ a{
 /* Página de Cadastro */
 
 
+.CadastroConta{
+    width: 1920px;
+    height: 1615px;
+    
+}
+
 .ContainerCadastro {
 
     display: flex;
@@ -435,7 +441,7 @@ a{
     justify-content: space-evenly;
     align-items: center;
     width: 1166px;
-    height: 1365px;
+    height: 1135px;
     margin-top: 136px;
     margin-left: 415px;
     border-radius: 100px;
