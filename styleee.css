@@ -679,104 +679,220 @@ a{
 
 }
 
-/*  PAGINA CONSULTA  */
-/*  PAGINA CONSULTA  */
-/*  PAGINA CONSULTA  */
-/*  PAGINA CONSULTA  */
-/*  PAGINA CONSULTA  */
 
 
 
-/*  PAGINA CONSULTA  */
-/*  PAGINA CONSULTA  */
-/*  PAGINA CONSULTA  */
-/*  PAGINA CONSULTA  */
-/*  PAGINA CONSULTA  */
+/* Página Sobre Nós */
+/* --- SEÇÃO 1: NOSSA ORIGEM (Texto à esquerda, Imagem à direita) --- */
+.secao-origem {
+    /* Força o Flexbox e a distribuição do espaço */
+    display: flex !important; 
+    flex-wrap: nowrap; /* Impede a quebra de linha em telas grandes */
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+    align-items: center; 
+    gap: 40px; 
+    /* Adiciona o padding nas laterais, garantindo espaço */
+    padding: 40px 5%; 
+    margin-bottom: 50px;
+    /* max-width: none; */ /* Descomente se tiver problema com largura */
+}
 
-.formatardiv{
+.origem-texto {
+    /* Garante que o texto ocupe metade (com o gap) e alinha o texto interno */
+    flex: 1 1 50%; 
+    text-align: left !important;
+    padding-left: 0; 
+}
 
-    height:2899px ;
-    width: 1830px ;
+/* Alinhamento dos títulos e parágrafos dentro do texto */
+.origem-texto h2 {
+    color: var(--cor-azul-titulo);
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: 'Noto Serif', serif;
+    text-align: left !important; /* Força o título para a esquerda */
+}
+
+.origem-texto p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+    text-align: left !important; /* Força os parágrafos para a esquerda */
+}
+
+.origem-imagem {
+    /* Garante que a imagem ocupe a outra metade */
+    flex: 1 1 50%;
+    text-align: right;
+    padding-right: 0;
+    min-width: 300px; /* Garante um tamanho mínimo para a imagem não sumir */
+}
+
+.origem-imagem img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* AJUSTES PARA A IMAGEM DA SEÇÃO 'NOSSA ORIGEM' */
+.imagem-origem-ajuste {
+    /* Aplica o arredondamento apenas do lado direito */
+    border-radius: 0 100px 100px 0; 
+    max-width: 100%; 
+    height: auto;
+    display: block;
+}
+
+
+/* --- SEÇÃO 2: DOS NOSSOS PILARES (Colunas e Barra Vertical) --- */
+
+/* Resetando o padding para a borda visual da coluna */
+.secao-pilares-container {
+    padding: 0 5%; /* Padding lateral na seção principal */
+    margin-bottom: 50px;
+}
+
+.titulo-pilares {
+    color: var(--cor-azul-titulo); /* Ajustado para a cor azul para combinar com a imagem */
+    font-size: 2em; /* Aumentado um pouco o tamanho */
+    margin-bottom: 20px;
+    padding: 5px 0;
+    display: block;
+    width: 100%;
+    /* Removido o margin-left que já é garantido pelo padding do container */
+    text-align: center; /* Centralizando o título "Dos nossos pilares..." */
+    font-family: 'Noto Serif', serif;
+}
+
+.pilares-conteudo-wrapper {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* Linha tracejada sutil entre a seção de origem e pilares */
+    border-top: 1px dashed #ccc; 
 }
 
-.nomecargo{
-
-    text-align: center;
-    font-size: 19px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    margin-top: 35px;
-    margin-bottom: 35px;
+.pilares-texto-coluna {
+    flex: 1; /* Coluna da esquerda */
+    padding: 20px;
+    background-color: var(--cor-cinza-pilar); /* Fundo cinza para esta coluna */
 }
 
-.foto_Helena_Duarte {
-    width: 529px;
-    height: 529px;
-    object-fit: cover; 
-    margin-bottom: 35px ;
-}
-
-.foto_Carla_Menezes {
-    width: 529px;
-    height: 529px;
-    object-fit: cover; 
-    margin-bottom: 35px ;
-}
-
-.foto_Marcos_Andrade {
-    width: 529px;
-    height: 529px;
-    object-fit: cover; 
-    margin-bottom: 35px ;
-}
-
-.foto_Ana_Torres {
-    width: 529px;
-    height: 529px;
-    object-fit: cover; 
-    margin-bottom: 35px ;
-}
-
-.textodigitavel{
-
-    background-color: #CFCFCF;
-    height: 2000px;
-    width: 1630px;
-    margin-left: 45px;
-    margin-right: 45px;
-}
-
-.configinput {
-    background-color: #CFCFCF;
-    color: #000;
-    border: none;
-    padding: 15px;    
-    display: flex;  
-    font-size: 30px;
-    height: 2000px;
-    width: 1630px ;
-    align-items: start;
-    justify-content: start;
-    margin-bottom: 500px;
-}
-
-.BotaoEnviar{
+.pilares-imagem-coluna {
+    flex-shrink: 0;
+    width: 80px; /* Largura ajustada da barra vertical */
+    background-color: var(--cor-azul-coluna);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 278px;
-    height: 136px;
-    margin-top: 50px;
-    border: solid, 1px, #2730D7;
-    border-radius: 400px;
-    font-size: 45px;
+    /* Gradiente para simular o efeito da imagem */
+    background: linear-gradient(to top, #00008b, #4a90e2); 
+}
+
+.pilares-rotulo {
+    color: #fff;
+    font-size: 1.8em;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    background-image: linear-gradient(to right, white, white , #2730D7);
+    transform: rotate(90deg);
+    white-space: nowrap;
+    letter-spacing: 8px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.pilares-conteudo-coluna {
+    flex: 1; /* Coluna da direita */
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para a coluna direita */
+}
+
+.pilar-item {
+    background-color: #fff;
+    /* Estilo de caixa sutil para o pilar item */
+    border: 1px solid #ddd; 
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.pilar-esquerda {
+    background-color: var(--cor-fundo-origem); /* Deixando os pilares da esquerda com fundo mais claro */
+}
+
+.pilar-titulo {
+    color: var(--cor-azul-titulo);
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.comunidade-item {
+    background-color: var(--cor-cinza-pilar); /* Fundo cinza para o bloco de texto da comunidade */
+    border: none;
+}
+
+.comunidade-imagem {
+    text-align: center;
+    margin-top: 20px;
+}
+/* O placeholder de imagem precisará ser uma imagem real para estilização precisa */
+
+
+/* --- SEÇÃO 3: NOSSO COMPROMISSO COM A ÉTICA (Bloco Inferior) --- */
+.secao-etica {
+    padding: 40px 5%;
+    text-align: center;
+    background-color: var(--cor-cinza-pilar); /* Fundo cinza claro */
+    margin-top: 30px;
+}
+
+.etica-box {
+    padding: 30px;
+    background-color: #fff; /* Conteúdo interno branco */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-etica {
+    color: var(--cor-verde-pilar);
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.secao-etica p {
+    line-height: 1.6;
+    color: var(--cor-texto-principal);
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 
+/* Media Queries para responsividade */
+@media (max-width: 1024px) {
+    .secao-origem {
+        flex-direction: column;
+    }
 
+    .origem-texto, .origem-imagem {
+        padding: 0 5%;
+        flex: none;
+        width: 100%;
+        min-width: unset; /* Remove min-width em mobile */
+    }
+
+    .origem-imagem {
+        /* Desfaz o arredondamento complexo em telas pequenas */
+        border-radius: 8px; 
+    }
+
+    .pilares-conteudo-wrapper {
+        flex-direction: column; 
+    }
+
+    .pilares-imagem-coluna {
+        width: 100%;
+        height: 60px;
+        order: -1; 
+    }
+
+    .pilares-rotulo {
+        transform: none; 
+    }
+}
