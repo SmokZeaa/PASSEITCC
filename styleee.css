@@ -681,6 +681,115 @@ a{
 
 
 
+/*  PAGINA CONSULTA  */
+/*  PAGINA CONSULTA  */
+/*  PAGINA CONSULTA  */
+/*  PAGINA CONSULTA  */
+/*  PAGINA CONSULTA  */
+
+
+
+/*  PAGINA CONSULTA  */
+/*  PAGINA CONSULTA  */
+/*  PAGINA CONSULTA  */
+/*  PAGINA CONSULTA  */
+/*  PAGINA CONSULTA  */
+
+.formatardiv{
+
+    height:2899px ;
+    width: 1830px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nomecargo{
+
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.foto_Helena_Duarte {
+    width: 529px;
+    height: 529px;
+    object-fit: cover; 
+    margin-bottom: 35px ;
+}
+
+.foto_Carla_Menezes {
+    width: 529px;
+    height: 529px;
+    object-fit: cover; 
+    margin-bottom: 35px ;
+}
+
+.foto_Marcos_Andrade {
+    width: 529px;
+    height: 529px;
+    object-fit: cover; 
+    margin-bottom: 35px ;
+}
+
+.foto_Ana_Torres {
+    width: 529px;
+    height: 529px;
+    object-fit: cover; 
+    margin-bottom: 35px ;
+}
+
+.textodigitavel{
+
+    background-color: #CFCFCF;
+    height: 2000px;
+    width: 1630px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.configinput {
+    background-color: #CFCFCF;
+    color: #000;
+    border: none;
+    padding: 15px;    
+    display: flex;  
+    font-size: 30px;
+    height: 2000px;
+    width: 1630px ;
+    align-items: start;
+    justify-content: start;
+    margin-bottom: 500px;
+}
+
+.BotaoEnviar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 278px;
+    height: 136px;
+    margin-top: 50px;
+    border: solid, 1px, #2730D7;
+    border-radius: 400px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, white, white , #2730D7);
+}
+
+
+
+/* Página Sobre Nós */
+/* Página Sobre Nós */
+/* Página Sobre Nós */
+/* Página Sobre Nós */
+/* Página Sobre Nós */
+/* Página Sobre Nós */
+/* Página Sobre Nós */
+/* Página Sobre Nós */
 
 /* Página Sobre Nós */
 /* --- SEÇÃO 1: NOSSA ORIGEM (Texto à esquerda, Imagem à direita) --- */
