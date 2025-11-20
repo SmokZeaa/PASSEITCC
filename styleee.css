@@ -1,4 +1,3 @@
-
 /* Página de HOME (Escolher Professor) */
 /* Página de HOME (Escolher Professor) */
 /* Página de HOME (Escolher Professor) */
@@ -6,20 +5,20 @@
 /* Página de HOME (Escolher Professor) */
 /* Página de HOME (Escolher Professor) */
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    
+
 }
 
-a{
-    text-decoration:  none;
+a {
+    text-decoration: none;
     color: black;
 
 }
 
-.home{
+.home {
     width: 1920px;
     height: 3152px;
 }
@@ -27,24 +26,24 @@ a{
 
 
 .header {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 30px;
     width: 1920px;
     height: 104px;
     border-bottom: solid 2px aqua;
-    
+
 }
 
-.header a{
+.header a {
 
-    text-decoration:  none;
+    text-decoration: none;
     color: #2730D7;
 
 }
 
-.menu{
+.menu {
     width: 819px;
     height: 18px;
     display: flex;
@@ -54,7 +53,7 @@ a{
 }
 
 .login {
-    display:flex;
+    display: flex;
     width: 163px;
     height: 18px;
     justify-content: space-evenly;
@@ -63,7 +62,7 @@ a{
 
 .banner {
 
-    width:1920px;
+    width: 1920px;
     height: 967px;
     background-image: url(Imagens/LivroHome.jpg);
     display: flex;
@@ -75,7 +74,7 @@ a{
 
 }
 
-.banner h1{
+.banner h1 {
     width: 694px;
     height: 177px;
     font-size: 47px;
@@ -83,7 +82,7 @@ a{
     text-align: center;
 }
 
-.botaoContate{
+.botaoContate {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,22 +95,22 @@ a{
     font-size: 37px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    background-image: linear-gradient(to right, white, white , #2730D7);
+    background-image: linear-gradient(to right, white, white, #2730D7);
 }
 
 
 
-.TextBox{
+.TextBox {
 
     margin-top: 143px;
     margin-left: 164px;
     width: 1572px;
     height: 118px;
-    
+
 }
 
-.TextBox h1{
-    
+.TextBox h1 {
+
     text-align: center;
     font-weight: bold;
     text-align: center;
@@ -119,7 +118,7 @@ a{
 
 }
 
-.DadBlock{
+.DadBlock {
     display: flex;
     justify-content: space-evenly;
     width: 1407px;
@@ -136,7 +135,7 @@ a{
     height: 536px;
     border: solid 1px black;
     border-radius: 20px;
-    background-image: linear-gradient(white,#2730D7);
+    background-image: linear-gradient(white, #2730D7);
 }
 
 .blocoTcc h3 {
@@ -146,11 +145,11 @@ a{
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    padding-top:15px ;
+    padding-top: 15px;
 
 }
 
-.blocoAgendamento{
+.blocoAgendamento {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,22 +157,22 @@ a{
     height: 536px;
     border: solid 1px black;
     border-radius: 20px;
-    background-image: linear-gradient(white,#2730D7);
+    background-image: linear-gradient(white, #2730D7);
 }
 
-.blocoAgendamento h3{
+.blocoAgendamento h3 {
 
     width: 536px;
     height: 150px;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    padding-top:10px ;
+    padding-top: 10px;
 
 }
 
 
-.MomBlock{
+.MomBlock {
     display: flex;
     justify-content: space-evenly;
     width: 1407px;
@@ -191,7 +190,7 @@ a{
     height: 536px;
     border: solid 1px black;
     border-radius: 20px;
-    background-image: linear-gradient(white,#2730D7);
+    background-image: linear-gradient(white, #2730D7);
 
 }
 
@@ -202,7 +201,7 @@ a{
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    padding-top:10px ;
+    padding-top: 10px;
 
 }
 
@@ -215,18 +214,18 @@ a{
     height: 536px;
     border: solid 1px black;
     border-radius: 20px;
-    background-image: linear-gradient(white,#2730D7);
+    background-image: linear-gradient(white, #2730D7);
 
 }
 
-.blocoProfs h3{
+.blocoProfs h3 {
 
     width: 530px;
     height: 150px;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    padding-top:10px ;
+    padding-top: 10px;
 
 
 }
@@ -249,24 +248,24 @@ a{
 /* Página de Agendamento (Escolher Professor) */
 /* Página de Agendamento (Escolher Professor) */
 
-.AgendamentoProfessores{
+.AgendamentoProfessores {
 
     width: 1920px;
     height: 2564px;
 
 }
 
-.BlocoPadrao{
+.BlocoPadrao {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 1920px;
     height: 131px;
-    background-image: linear-gradient(#2730D7,#2730D7 ,#151FD9) ;
+    background-image: linear-gradient(#2730D7, #2730D7, #151FD9);
 
 }
 
-.BlocoPadrao h1{
+.BlocoPadrao h1 {
 
     width: 287px;
     height: 56px;
@@ -275,8 +274,8 @@ a{
 
 }
 
-.Container2{
-    display:flex;
+.Container2 {
+    display: flex;
     justify-content: space-between;
     width: 1554px;
     height: 738px;
@@ -285,7 +284,7 @@ a{
 
 }
 
-.BlocoCarla{
+.BlocoCarla {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -303,7 +302,7 @@ a{
     font-size: 23px;
 }
 
-.BlocoMarcos{
+.BlocoMarcos {
 
     display: flex;
     flex-direction: column;
@@ -325,9 +324,9 @@ a{
 
 }
 
-.Container3{
+.Container3 {
 
-    display:flex;
+    display: flex;
     justify-content: space-between;
     width: 1554px;
     height: 738px;
@@ -336,7 +335,7 @@ a{
 
 }
 
-.BlocoHelena{
+.BlocoHelena {
 
     display: flex;
     flex-direction: column;
@@ -358,7 +357,7 @@ a{
 
 }
 
-.BlocoAna{
+.BlocoAna {
 
     display: flex;
     flex-direction: column;
@@ -403,7 +402,7 @@ a{
 
 
 
-.tccpagina{
+.tccpagina {
 
     width: 1920px;
     height: 6000px;
@@ -439,10 +438,10 @@ a{
 /* Página de Cadastro */
 
 
-.CadastroConta{
+.CadastroConta {
     width: 1920px;
     height: 1615px;
-    
+
 }
 
 .ContainerCadastro {
@@ -462,7 +461,7 @@ a{
 
 }
 
-.TextoCadastro{
+.TextoCadastro {
 
     text-align: center;
     width: 777px;
@@ -470,7 +469,7 @@ a{
     margin-bottom: 100px;
 }
 
-.ExemploNome{
+.ExemploNome {
     width: 747px;
     height: 65px;
     background-color: white;
@@ -480,7 +479,7 @@ a{
     font-size: 23px;
 }
 
-.ExemploEmail{
+.ExemploEmail {
     width: 747px;
     height: 65px;
     background-color: white;
@@ -490,7 +489,7 @@ a{
     font-size: 23px;
 }
 
-.ExemploEndereco{
+.ExemploEndereco {
     width: 747px;
     height: 65px;
     background-color: white;
@@ -500,7 +499,7 @@ a{
     font-size: 23px;
 }
 
-.ExemploSenha{
+.ExemploSenha {
     width: 747px;
     height: 65px;
     background-color: white;
@@ -510,7 +509,7 @@ a{
     font-size: 23px;
 }
 
-.ExemploConfirmarSenha{
+.ExemploConfirmarSenha {
     width: 747px;
     height: 65px;
     background-color: white;
@@ -536,10 +535,10 @@ a{
 /* Página de Login */
 
 
-.PaginaLogin{
+.PaginaLogin {
     width: 1920px;
     height: 1448px;
-    
+
 }
 
 .ContainerLogin {
@@ -559,16 +558,16 @@ a{
 
 }
 
-.TextoLogin{
+.TextoLogin {
 
     text-align: center;
     width: 777px;
     height: 58px;
-    
+
 
 }
 
-.ExemploEmailLogin{
+.ExemploEmailLogin {
     width: 747px;
     height: 65px;
     background-color: white;
@@ -578,7 +577,7 @@ a{
     font-size: 18px;
 }
 
-.ExemploSenhaLogin{
+.ExemploSenhaLogin {
     width: 747px;
     height: 65px;
     background-color: white;
@@ -588,7 +587,7 @@ a{
     font-size: 18px;
 }
 
-.botaoLogarECriar{
+.botaoLogarECriar {
 
     width: 745px;
     display: flex;
@@ -596,7 +595,7 @@ a{
 
 }
 
-.botaoCadastro{
+.botaoCadastro {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -608,10 +607,10 @@ a{
     font-size: 18px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    background-image: linear-gradient(to right, white , #2730D7);
+    background-image: linear-gradient(to right, white, #2730D7);
 }
 
-.botaoLogar{
+.botaoLogar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -623,7 +622,7 @@ a{
     font-size: 18px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    background-image: linear-gradient(to right, white , #2730D7);
+    background-image: linear-gradient(to right, white, #2730D7);
 }
 
 
@@ -644,7 +643,7 @@ a{
 
 
 
-.ContainerAgendamento{
+.ContainerAgendamento {
 
     display: flex;
     flex-direction: column;
@@ -652,18 +651,18 @@ a{
     align-items: center;
     width: 1920px;
     height: 1243px;
-    
+
 
 }
 
-.ContainerAgendamento h2{
+.ContainerAgendamento h2 {
     width: 1592px;
     height: 58px;
     text-align: center;
 
 }
 
-.botaoAgendamento{
+.botaoAgendamento {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -675,12 +674,10 @@ a{
     font-size: 45px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    background-image: linear-gradient(to right, white, white , #2730D7);
+    background-image: linear-gradient(to right, white, white, #2730D7);
 
 }
 
-
-
 /*  PAGINA CONSULTA  */
 /*  PAGINA CONSULTA  */
 /*  PAGINA CONSULTA  */
@@ -695,16 +692,16 @@ a{
 /*  PAGINA CONSULTA  */
 /*  PAGINA CONSULTA  */
 
-.formatardiv{
+.formatardiv {
 
-    height:2899px ;
-    width: 1830px ;
+    height: 2899px;
+    width: 1830px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.nomecargo{
+.nomecargo {
 
     text-align: center;
     font-size: 19px;
@@ -717,32 +714,32 @@ a{
 .foto_Helena_Duarte {
     width: 529px;
     height: 529px;
-    object-fit: cover; 
-    margin-bottom: 35px ;
+    object-fit: cover;
+    margin-bottom: 35px;
 }
 
 .foto_Carla_Menezes {
     width: 529px;
     height: 529px;
-    object-fit: cover; 
-    margin-bottom: 35px ;
+    object-fit: cover;
+    margin-bottom: 35px;
 }
 
 .foto_Marcos_Andrade {
     width: 529px;
     height: 529px;
-    object-fit: cover; 
-    margin-bottom: 35px ;
+    object-fit: cover;
+    margin-bottom: 35px;
 }
 
 .foto_Ana_Torres {
     width: 529px;
     height: 529px;
-    object-fit: cover; 
-    margin-bottom: 35px ;
+    object-fit: cover;
+    margin-bottom: 35px;
 }
 
-.textodigitavel{
+.textodigitavel {
 
     background-color: #CFCFCF;
     height: 2000px;
@@ -755,17 +752,17 @@ a{
     background-color: #CFCFCF;
     color: #000;
     border: none;
-    padding: 15px;    
-    display: flex;  
+    padding: 15px;
+    display: flex;
     font-size: 30px;
     height: 2000px;
-    width: 1630px ;
+    width: 1630px;
     align-items: start;
     justify-content: start;
     margin-bottom: 500px;
 }
 
-.BotaoEnviar{
+.BotaoEnviar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -777,7 +774,7 @@ a{
     font-size: 45px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    background-image: linear-gradient(to right, white, white , #2730D7);
+    background-image: linear-gradient(to right, white, white, #2730D7);
 }
 
 
@@ -791,49 +788,53 @@ a{
 /* Página Sobre Nós */
 /* Página Sobre Nós */
 
-/* Página Sobre Nós */
-/* --- SEÇÃO 1: NOSSA ORIGEM (Texto à esquerda, Imagem à direita) --- */
+
+
+/* --- SEÇÃO 1: NOSSA ORIGEM --- */
+.SobreNos {
+    width: 1920px;
+    height: 4000;
+}
+
 .secao-origem {
-    /* Força o Flexbox e a distribuição do espaço */
-    display: flex !important; 
-    flex-wrap: nowrap; /* Impede a quebra de linha em telas grandes */
-    justify-content: space-between; /* Distribui o espaço entre os elementos */
-    align-items: center; 
-    gap: 40px; 
-    /* Adiciona o padding nas laterais, garantindo espaço */
-    padding: 40px 5%; 
+    display: flex !important;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 5%;
     margin-bottom: 50px;
-    /* max-width: none; */ /* Descomente se tiver problema com largura */
+
 }
 
 .origem-texto {
-    /* Garante que o texto ocupe metade (com o gap) e alinha o texto interno */
-    flex: 1 1 50%; 
+    flex: 1 1 50%;
     text-align: left !important;
-    padding-left: 0; 
+    padding-left: 0;
 }
 
-/* Alinhamento dos títulos e parágrafos dentro do texto */
+
 .origem-texto h2 {
     color: var(--cor-azul-titulo);
     font-size: 2em;
     margin-bottom: 20px;
     font-family: 'Noto Serif', serif;
-    text-align: left !important; /* Força o título para a esquerda */
+    text-align: left !important;
 }
 
 .origem-texto p {
     line-height: 1.7;
     margin-bottom: 15px;
-    text-align: left !important; /* Força os parágrafos para a esquerda */
+    text-align: left !important;
+
 }
 
 .origem-imagem {
-    /* Garante que a imagem ocupe a outra metade */
     flex: 1 1 50%;
     text-align: right;
     padding-right: 0;
-    min-width: 300px; /* Garante um tamanho mínimo para a imagem não sumir */
+    min-width: 300px;
+
 }
 
 .origem-imagem img {
@@ -842,57 +843,56 @@ a{
     display: block;
 }
 
-/* AJUSTES PARA A IMAGEM DA SEÇÃO 'NOSSA ORIGEM' */
+
 .imagem-origem-ajuste {
-    /* Aplica o arredondamento apenas do lado direito */
-    border-radius: 0 100px 100px 0; 
-    max-width: 100%; 
+
+    border-radius: 0 100px 100px 0;
+    max-width: 100%;
     height: auto;
     display: block;
 }
 
 
-/* --- SEÇÃO 2: DOS NOSSOS PILARES (Colunas e Barra Vertical) --- */
+/* --- SEÇÃO 2: DOS NOSSOS PILARES --- */
 
-/* Resetando o padding para a borda visual da coluna */
 .secao-pilares-container {
-    padding: 0 5%; /* Padding lateral na seção principal */
+    padding: 0 5%;
     margin-bottom: 50px;
 }
 
 .titulo-pilares {
-    color: var(--cor-azul-titulo); /* Ajustado para a cor azul para combinar com a imagem */
-    font-size: 2em; /* Aumentado um pouco o tamanho */
+    color: var(--cor-azul-titulo);
+    font-size: 2em;
     margin-bottom: 20px;
     padding: 5px 0;
     display: block;
     width: 100%;
-    /* Removido o margin-left que já é garantido pelo padding do container */
-    text-align: center; /* Centralizando o título "Dos nossos pilares..." */
+    text-align: center;
     font-family: 'Noto Serif', serif;
 }
 
 .pilares-conteudo-wrapper {
     display: flex;
-    /* Linha tracejada sutil entre a seção de origem e pilares */
-    border-top: 1px dashed #ccc; 
+
+    border-top: 1px dashed #ccc;
 }
 
 .pilares-texto-coluna {
-    flex: 1; /* Coluna da esquerda */
+    flex: 1;
+
     padding: 20px;
-    background-color: var(--cor-cinza-pilar); /* Fundo cinza para esta coluna */
+    background-color: var(--cor-cinza-pilar);
+
 }
 
 .pilares-imagem-coluna {
     flex-shrink: 0;
-    width: 80px; /* Largura ajustada da barra vertical */
+    width: 80px;
     background-color: var(--cor-azul-coluna);
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Gradiente para simular o efeito da imagem */
-    background: linear-gradient(to top, #00008b, #4a90e2); 
+    background: linear-gradient(to top, #00008b, #4a90e2);
 }
 
 .pilares-rotulo {
@@ -902,27 +902,26 @@ a{
     transform: rotate(90deg);
     white-space: nowrap;
     letter-spacing: 8px;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .pilares-conteudo-coluna {
-    flex: 1; /* Coluna da direita */
+    flex: 1;
     padding: 20px;
-    background-color: #fff; /* Fundo branco para a coluna direita */
+    background-color: #fff;
 }
 
 .pilar-item {
     background-color: #fff;
-    /* Estilo de caixa sutil para o pilar item */
-    border: 1px solid #ddd; 
+    border: 1px solid #ddd;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .pilar-esquerda {
-    background-color: var(--cor-fundo-origem); /* Deixando os pilares da esquerda com fundo mais claro */
+    background-color: var(--cor-fundo-origem);
 }
 
 .pilar-titulo {
@@ -932,7 +931,7 @@ a{
 }
 
 .comunidade-item {
-    background-color: var(--cor-cinza-pilar); /* Fundo cinza para o bloco de texto da comunidade */
+    background-color: var(--cor-cinza-pilar);
     border: none;
 }
 
@@ -940,20 +939,19 @@ a{
     text-align: center;
     margin-top: 20px;
 }
-/* O placeholder de imagem precisará ser uma imagem real para estilização precisa */
 
 
-/* --- SEÇÃO 3: NOSSO COMPROMISSO COM A ÉTICA (Bloco Inferior) --- */
+/* --- SEÇÃO 3: NOSSO COMPROMISSO COM A ÉTICA --- */
 .secao-etica {
     padding: 40px 5%;
     text-align: center;
-    background-color: var(--cor-cinza-pilar); /* Fundo cinza claro */
+    background-color: var(--cor-cinza-pilar);
     margin-top: 30px;
 }
 
 .etica-box {
     padding: 30px;
-    background-color: #fff; /* Conteúdo interno branco */
+    background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -972,36 +970,12 @@ a{
     margin: 0 auto;
 }
 
+.secao-participacao {
+    text-align: center;
+    padding: 40px 5%;
+}
 
-/* Media Queries para responsividade */
-@media (max-width: 1024px) {
-    .secao-origem {
-        flex-direction: column;
-    }
-
-    .origem-texto, .origem-imagem {
-        padding: 0 5%;
-        flex: none;
-        width: 100%;
-        min-width: unset; /* Remove min-width em mobile */
-    }
-
-    .origem-imagem {
-        /* Desfaz o arredondamento complexo em telas pequenas */
-        border-radius: 8px; 
-    }
-
-    .pilares-conteudo-wrapper {
-        flex-direction: column; 
-    }
-
-    .pilares-imagem-coluna {
-        width: 100%;
-        height: 60px;
-        order: -1; 
-    }
-
-    .pilares-rotulo {
-        transform: none; 
-    }
+.titulo-participacao {
+    text-align: center;
+    margin-bottom: 20px;
 }
